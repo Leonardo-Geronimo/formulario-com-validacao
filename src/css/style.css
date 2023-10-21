@@ -1,0 +1,95 @@
+body {
+    background-image: url(../image/bg-repeat.jpg);
+    background-size: contain;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.left .title {
+    color: var(--white-color);
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 14px;
+}
+
+.left .text {
+    width: 300px;
+    color: var(--white-color);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 11px;
+    padding-bottom: 15px;
+}
+
+.container .right {
+    width: 340px;
+    background-color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 60px;
+}
+
+.input {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 8px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid var(--black-color);
+    width: 100%;
+    display: block;
+    resize: none;
+}
+
+.right .form-content {
+    margin-bottom: 15px;
+
+}
+
+.error-message {
+    color: var(--red-color);
+    font-size: 8px;
+    font-weight: 400;
+    position: absolute;
+    visibility: hidden;
+}
+
+.form-content.error .input {
+    border-color: var(--red-color);
+}
+
+.form-content.error span {
+    visibility: visible;
+}
+
+.instruction {
+    color: var(--black-color);
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 1px;
+    margin-bottom: 15px;
+}
+
+.btn{
+    width: 100%;
+    padding: 15px;
+    background-color: var(--soft-green);
+    border: none;
+    border-radius: 5px;
+    color: var(--white-color);
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.campo-preenchido {
+    border: 1px solid var(--green-medium);
+}

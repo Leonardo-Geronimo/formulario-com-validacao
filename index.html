@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESAFIO - HTML/CSS/JS INTERMEDIÁRIO</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <section class="left">
+            <h1 class="title">FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h1>
+            <p class="text">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em
+                contato em menos de 24h.</p>
+        </section>
+        <form id="form" class="right">
+            <div class="form-content">
+                <input type="text" name="input" placeholder="Nome completo *" id="name" class="input" />
+                <span class="error-message"></span>
+            </div>
+            <div class="form-content">
+                <input type="text" name="input" placeholder="Email *" id="email" class="input" />
+                <span class="error-message"></span>
+            </div>
+            <div class="form-content">
+                <input type="text" name="input" placeholder="Telefone *" id="telefone" class="input" />
+                <span class="error-message"></span>
+            </div>
+            <div class="form-content">
+                <textarea name="texto" cols="10" rows="4" placeholder="Mensagem *" id="mensagem"
+                    class="input"></textarea>
+                <span class="error-message"></span>
+            </div>
+
+            <div class="instruction">
+                <p>*campos obrigatórios</p>
+            </div>
+            <button id="btn" class="btn">Enviar</button>
+        </form>
+    </div>
+
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
