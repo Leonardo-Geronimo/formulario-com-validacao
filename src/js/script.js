@@ -10,7 +10,7 @@ const inputText = document.querySelectorAll(".input");
 form.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    verificandoInput();
+    verifyInput();
     emailInput();
     telefoneInput();
     messageInput();
@@ -26,7 +26,7 @@ inputText.forEach(input => {
     });
 });
 
-function verificandoInput() {
+function verifyInput() {
     const userNameValue = userName.value;
 
     if (userNameValue == "") {
@@ -72,7 +72,7 @@ function messageInput() {
 
 function errorInput(input, message) {
     const formItem = input.parentElement;
-    const textMessage = formItem.querySelector("span")
+    const textMessage = formItem.querySelector(".error-message")
 
     textMessage.innerText = message;
 
@@ -85,7 +85,7 @@ userEmail.addEventListener("blur", () => {
 
 
 userName.addEventListener("blur", () => {
-    verificandoInput();
+    verifyInput();
 })
 
 telefoneUser.addEventListener("blur", () => {
