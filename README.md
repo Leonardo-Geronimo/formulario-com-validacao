@@ -20,8 +20,8 @@ https://www.figma.com/file/zBKnYG9UNdUiIr8ClQTWSG/?node-id=3%3A2
 
 O formulário consiste em:
 
-- Ao clicar para enviar, se caso algum campo não estiver preenchido, a borda do input ficará vermelha e uma mensagem de "campo obrigatório" irá aparecer embaixo do campo que não for preenchido.
-- Se o usuário clicar dentro do campo de input e, logo após clicar fora do mesmo ou então, se o campo for preenchido e o dado digitado for excluído e clicado o click fora, a borda do campo ficará vermelho e a mensagem de "campo obrigatório" será exibida. 
+- Ao clicar para enviar, todos os campos precisam estar devidamente preenchidos. Se algum campo não estiver preenchido, sua borda ficará vermelha e uma mensagem de "campo obrigatório" irá aparecer.
+- Se todos os campos estiverem preenchidos, a validação e aprovada e o formulário é enviado. 
 
 ### Captura de tela
 
