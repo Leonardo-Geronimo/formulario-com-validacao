@@ -36,6 +36,10 @@ body {
     margin-left: 60px;
 }
 
+.right .form-content {
+    margin-bottom: 15px;
+}
+
 .input {
     font-size: 15px;
     font-weight: 700;
@@ -48,25 +52,19 @@ body {
     resize: none;
 }
 
-.right .form-content {
-    margin-bottom: 15px;
-
-}
-
 .form-content .error-message {
     color: var(--red-color);
     font-size: 8px;
     font-weight: 400;
     position: absolute;
+}
+
+.campo-obrigatorio {
     visibility: hidden;
 }
 
-.form-content.error .input {
+.form-content .error {
     border-color: var(--red-color);
-}
-
-.form-content.error .error-message {
-    visibility: visible;
 }
 
 .container .right .instruction {
@@ -77,7 +75,7 @@ body {
     margin-bottom: 15px;
 }
 
-.container .right .btn{
+.container .right .btn-enviar{
     width: 100%;
     padding: 15px;
     background-color: var(--soft-green);
